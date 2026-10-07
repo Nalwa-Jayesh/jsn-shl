@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Competition data and raw archives (read-only, never commit)
+data/
+*.zip
+
+# Generated artifacts (reproducible via scripts/)
+outputs/features/
+outputs/predictions/
+outputs/models/

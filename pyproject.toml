@@ -1,0 +1,30 @@
+[project]
+name = "shl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nalwa-Jayesh", email = "nalwajayesh97@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "faster-whisper>=1.1.0",
+    "librosa>=0.11.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.17.1",
+    "sentence-transformers>=3.0",
+    "soundfile>=0.14.0",
+    "torch>=2.14.1",
+    "torchaudio>=2.11.0",
+    "transformers>=4.40",
+]
+
+[project.scripts]
+shl = "shl:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
